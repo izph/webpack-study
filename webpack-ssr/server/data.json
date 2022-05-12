@@ -1,0 +1,28 @@
+{
+    "err_no": 0,
+    "err_msg": "success",
+    "data": {
+        "offer": {
+            "title": "",
+            "activity_id": "2020",
+            "start_time": 1617638400,
+            "end_time": 1618934400,
+            "status": 2,
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2879410508de459c91ae8b7509ca75f8~tplv-k3u1fbpfcp-zoom-1.image",
+            "close_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a38d640009e14c87a7d29cd95dee27dd~tplv-k3u1fbpfcp-zoom-1.image",
+            "url": "https://juejin-activity.bytedance.net/rank",
+            "is_show": 0
+        },
+        "top": {
+            "title": "",
+            "activity_id": "2021",
+            "start_time": 1648051200,
+            "end_time": 1656604799,
+            "status": 1,
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/594cb16bf5274f8da45264c77e2ca1c7~tplv-k3u1fbpfcp-zoom-1.image",
+            "close_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e5199830276c4a85bc7c8cb8edecd54d~tplv-k3u1fbpfcp-zoom-1.image",
+            "url": "https://hackathon2022.juejin.cn?source=app",
+            "is_show": 1
+        }
+    }
+}
