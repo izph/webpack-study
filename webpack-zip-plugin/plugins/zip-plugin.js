@@ -30,18 +30,20 @@ module.exports = class ZipPlugin {
                 // console.log(content)  content是一个buffer
 
                 // compilation.options.output.path  是在webpack.config.js设置的出口dist目录
-                const outputPath = path.join(
-                    compilation.options.output.path,
-                    zipFileName + '.zip'
-                );
+                // const outputPath = path.join(
+                //     compilation.options.output.path,
+                //     zipFileName + '.zip'
+                // );
                 // 把绝对路径转化为相对路径，把路径设置为dist的相对路径
-                const outputRelativePath = path.relative(
-                    compilation.options.output.path,
-                    outputPath
-                );
+                // const outputRelativePath = path.relative(
+                //     compilation.options.output.path,
+                //     outputPath
+                // );
                 // 把buffer转化成 source
-                compilation.assets[outputRelativePath] = new RawSource(content);
+                // compilation.assets[outputRelativePath] = new RawSource(content);
 
+                
+                compilation.assets[`${zipFileName + '.zip'}`] = new RawSource(content);
                 callback();
             });
         });
